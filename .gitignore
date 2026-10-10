@@ -1,0 +1,14 @@
+# Build output
+target/
+
+# OAuth token caches — never commit these
+token.json
+*.token.json
+.tokens/
+
+# Local env files — secrets live in the real environment, not the repo
+.env
+.env.*
+
+# Logs
+*.log
